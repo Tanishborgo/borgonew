@@ -479,7 +479,7 @@ export default function Home() {
                         muted
                         style={{ display: 'block', margin: '0 auto' }}
                     >
-                        <source src="/assests/borgo.mp4" type="video/mp4" />
+                        <source src="./assests/borgo.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
