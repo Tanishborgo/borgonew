@@ -479,7 +479,7 @@ export default function Home() {
                         muted
                         style={{ display: 'block', margin: '0 auto' }}
                     >
-                        <source src="/assests/borgo.mp4" type="video/mp4" />
+                        <source src="https://res.cloudinary.com/dmymftumw/video/upload/v1737604572/swiztr76qwo2llnnacj1.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
