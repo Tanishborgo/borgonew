@@ -310,7 +310,12 @@ export default function contact() {
         <Grid item xs={12} sm={12} md={6} lg={6} xl={6} className={styles['midForm-right']}>
           <Box className={styles['midForm-right-text']} >
             <Typography className={styles['midForm-right-1']}>Email</Typography>
-            <Typography className={styles['midForm-right-2']} style={{ textDecoration: 'none' }}>info@borgo.ie</Typography>
+            <a href="mailto:info@borgo.ie" style={{ textDecoration: 'none' }}>
+  <Typography className={styles['midForm-right-2']}>
+    info@borgo.ie
+  </Typography>
+</a>
+
 
             <Box style={{ marginBlock: '50px' }}>
               <Typography className={styles['midForm-right-1']}>Address</Typography>
